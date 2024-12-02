@@ -54,6 +54,7 @@
    "depends_on": "eval:doc.is_group_page == 0",
    "fieldname": "content",
    "fieldtype": "Markdown Editor",
+   "ignore_xss_filter": 1,
    "label": "Content"
   },
   {
@@ -63,7 +64,7 @@
    "label": "Badge"
   },
   {
-   "description": "Add Tailwind colours like red-500, green-500 etc.",
+   "description": "Add Tailwind colours like red, green, blue, yellow, purple, pink, indigo, cyan, teal, lime, orange, gray etc.",
    "fieldname": "badge_color",
    "fieldtype": "Data",
    "label": "Badge Color"
@@ -105,7 +106,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-09 15:34:23.907329",
+ "modified": "2024-11-15 15:20:42.503563",
  "modified_by": "Administrator",
  "module": "commit",
  "name": "Commit Docs Page",
